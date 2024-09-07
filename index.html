@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosma 17</title>
+  <link rel="stylesheet" href="./assets/css/animations.css">
+  <link rel="stylesheet" href="./assets/css/locomotive.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="loader">
+    <div class="content">
+      <img src="" alt="">
+      something
+    </div>
+  </div>
+  <!-- <section class="hero">
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div> -->                                               
+  <!-- </section> -->
+  <!-- master section -->
+   <a href="./brochure.pdf" target="_blank">
+   <div class="brochure">
+    Brochure
+   </div>
+   </a>
+  <div class="ruler">
+    <div class="mask one">0%</div>
+    <div class="mask two">0%</div>
+    <div class="lines">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </div>
+  </div>
+ 
+   <div class="container" data-scroll-container>
+    <!-- header section -->
+    <div class="" id="hero">
+      <img src="./assets/School Logo.png" alt="" class="sma-logo"> 
+      <div class="header">
+        <h2 style="opacity: 0;"><a href="" target="_blank" rel="noopener noreferrer">Home</a></h2>
+        <div class="mid-spot" onclick="document.body.classList.toggle('gold');"></div>
+        <div class="spotlight" id="start">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <canvas id="particleCanvas"></canvas>
+
+      <div class="accent-lines">
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="heroSubP">
+        <p>St. Mary's Academy</p>
+      </div>
+      <div class="hero-inner">
+        <div class="heroT" data-scroll data-scroll-speed="2">
+          <h2>COSMA</h2>
+          <h2>COSMA</h2>
+        </div>
+      </div>
+      <p class="heroP">An inter-school Tech Event</p>
+      <div class="mountains">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="hero-spacer"></div>
+
+    <div class="content-section" id="about">
+      <div class="content-acc">
+        <div data-scroll data-scroll-speed="1.5"></div>
+        <div data-scroll data-scroll-speed="-1"></div>
+      </div>
+      <p class="subt">About</p>
+      <h3 class="title">COSMA</h3>
+      <p class="subp">COSMA is an inter-school Tech Event held every year at St. Mary's Academy, Meerut Cantt.</p>
+    </div>
+    <section class="events" id="events">
+
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="4.5" style="background-image: url('./assets/events/3.png');">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Symposium</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Debate</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="1.5" style=" background-image: url('assets/events/1.png');">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Shutter Sync</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Photography</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="1.5" style=" background-image: url(./assets/events/9.png);">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Mind Bytes</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Quiz</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="4.5" style=" background-image: url(./assets/events/11.png);">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Syncro-Motion</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Animation Creation</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+
+        </div>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="4.5" style=" background-image: url(./assets/events/10.png);">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Pixel Beats</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Music Video</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="1.5" style=" background-image: url(./assets/events/5.png)">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Digital Grand Prix</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Gaming</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="2.5" style=" background-image: url(assets/events/2.png)">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Film Flux</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Reel</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="3.5" style=" background-image: url(assets/events/4.png)">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Ad-Zap</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Advertisement</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="1.5" style=" background-image: url(assets/events/Event_X.png)">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Event X</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">(Classified)</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" data-scroll data-scroll-speed="6.5" style="background-image: url(assets/events/7.png)">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Algo-Arena</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Coding</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" style=" background-image: url(assets/events/6.png)">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Web Quantum</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Web Development</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      <a href="./brochure.pdf" target="_blank" class="card-wrapper">
+        <div class="card" style=" background-image: url(assets/events/Digital_Art.jpg)">
+          <div class="card-overlay"></div>
+          <div class="card-head">
+            <svg viewBox="0 0 100 100">
+              <h2>Pixel Palette</h2>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div class="title">Digital Art</div>
+            <div class="desc" style="opacity: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloremque?</div>
+            <div class="actions">
+              <button> <i class="fa fa-heart-o"></i></button>
+              <button><i class="fa fa-exchange"></i></button>
+              <button><i class="fa fa-close"></i></button>
+            </div>
+          </div>
+        </div>
+    </a>
+      </section>
+      <section class="team">
+        <h2 class="title">Teams</h2>
+        <div class="row">
+          <article class="profile">
+            <div class="profile-image">
+              <img src="./assets/team/dabby.jpeg" />
+            </div>
+            <h2 class="profile-username">Anmol Dabral</h2>
+            
+           
+          </article>
+          <article class="profile">
+            <div class="profile-image">
+              <img src="./assets/team/arpan.jpeg" />
+            </div>
+            <h2 class="profile-username">Arpan Varma</h2>
+            
+           
+          </article>
+          <article class="profile">
+            <div class="profile-image">
+              <img src="./assets/team/roh.jpeg" />
+            </div>
+            <h2 class="profile-username">Rohan Sharma</h2>
+            
+           
+          </article>
+          </div>
+          <div class="row">
+            <article class="profile">
+              <div class="profile-image">
+                <img src="./assets/team/anant.jpg" />
+              </div>
+              <h2 class="profile-username">Anant Singh</h2>
+              
+            </article>
+          <article class="profile">
+            <div class="profile-image">
+              <img src="./assets/team/vardhman.jpeg" />
+            </div>
+            <h2 class="profile-username">Vardhman Jain</h2>
+          
+           
+          </article>
+          <article class="profile">
+            <div class="profile-image">
+              <img src="./assets/team/shorya.jpg" />
+            </div>
+            <h2 class="profile-username">Shorya P. Bansal</h2>
+            
+           
+          </article>
+          </div>
+          <div class="row">
+            <article class="profile">
+              <div class="profile-image">
+                <img src="./assets/team/bhalla.png" />
+              </div>
+              <h2 class="profile-username">Advick Bhalla</h2>
+            </article>
+            <article class="profile">
+              <div class="profile-image">
+                <img src="./assets/team/lakshay.jpeg" />
+              </div>
+              <h2 class="profile-username">Laksh Goel</h2>
+            </article>
+            <article class="profile">
+              <div class="profile-image">
+                <img src="./assets/team/Awin.png" />
+              </div>
+              <h2 class="profile-username">Awin Gupta</h2>
+            </article>
+          </div>
+      </section>
+      <section class="faq" id="faq">
+        <h2 class="title">Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">How can I
+                register for the event?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>You can fill the registration form provided as a link on the website.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">
+                Can pre-event students be allowed to participate in other events?
+
+              </span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Yes, The students who are already registered for a pre-event can participate in one live event, if they
+                wish to.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">What is the last
+                date for registration?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>It is 28th of July.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How many events
+                can a single person participate in?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>One student can participate in a maximum of one event.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Whom to contact
+                in case of any query?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>The query can be solved either by the integrated website chatbot or you can contact any of
+                the tech board members listed on the website.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Is there any
+                registration fee?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>No, the registration is free of cost.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Do I need to
+                bring my own equipment such as laptop or other gears?</span><span class="icon"
+                aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Each event has different requirements, the rules for all the events are provided within the
+                brochure.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What is the
+                duration of the event?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>No, the registration is free of cost.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Will I be
+                provided with food packets or beverages?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Yes you shall be provided by the host school.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Is there any
+                dress code requirement for the event?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>It is compulsory to wear casual clothes for the event.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What can I do if
+                I encounter any technical difficulty during the event?</span><span class="icon"
+                aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>You can contact the volunteer nearby for any assistance at any time.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Will I get any
+                certificate of participation for taking part in this event?</span><span class="icon"
+                aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Yes you will surely be awarded with a participation certificate.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Can any changes
+                be made once the registration has been done?</span><span class="icon"
+                aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>No, once you are registered you are not permitted to make any changes.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Is it mandatory
+                to participate in all the events?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>No, it’s not mandatory </p>
+            </div>
+          </div>
+        </div>
+  </div>
+  </section>
+  </section>
+  <footer id="footer">
+    <div id="blob"></div>
+    <div class="footer-main">
+      <h3 data-scroll data-scroll-speed="4">Cosma'17</h3>
+      <div class="social">
+        <a href="https://instagram.com/official.stmarysmeerut" target="_blank" class="link"><img src="./assets/insta.webp" alt="" /></a>
+        <a href="https://stmarysmeerut.com" target="_blank" class="link"><img src="./assets/link.png" alt="" /></a>
+
+      </div>
+      <p style="color: #818181; font-size: smaller; margin: 2em 0;">2024 © All Rights Reserved</p>
+    </div>
+    <div class="footer-inner" style="margin-top: 4em;">
+      <div class="row">
+        <a href="#about">
+          <div class="btn">
+            About
+          </div>
+        </a>
+        <a href="#events">
+          <div class="btn">
+            Events
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <a href="#faq">
+          <div class="btn">
+            FAQ
+          </div>
+        </a>
+
+      </div>
+      <div class="col col4">
+        <p class="credits">Website Developed by:<br> <a class="cred" href="https://linkedin.com/in/rohan-sharma-1906" target="_blank">Rohan Sharma</a></p>
+      </div>
+    </div>
+    <div class="backdrop"></div>
+  </footer>
+  </div>
+
+  <script id="vertexShader" type="x-shader/x-vertex">
+    void main() {
+            gl_Position = vec4( position, 1.0 );
+        }
+    </script>
+
+
+
+  <a class="scroll" href="#hero" data-scroll-to>
+    <div class="container">
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+    </div>
+    <span class="text">Throttle up</span>
+  </a>
+<script src="https://unpkg.com/phosphor-icons"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+  <script id="fragmentShader" type="x-shader/x-fragment">
+
+
+    #define TWO_PI 6.2831853072
+ #define PI 3.14159265359
+
+ precision highp float;
+ uniform vec2 resolution;
+ uniform float time;
+
+ void main(void) {
+ vec2 uv = (gl_FragCoord.xy * 2.0 - resolution.xy) / min(resolution.x, resolution.y);
+ float t = time*0.05;
+float lineWidth = 0.002;
+
+vec3 color = vec3(0.0);
+for(int j = 0; j < 3; j++){
+ for(int i=0; i < 5; i++){
+   color[j] += lineWidth*float(i*i) / abs(fract(t - 0.01*float(j)+float(i)*0.01)*5.0 - length(uv) + mod(uv.x+uv.y, 0.2));
+ }
+}
+
+
+   
+ 
+   gl_FragColor = vec4(color[0],color[1],color[2],1.0);
+ }
+</script>
+  <script>
+
+  </script>
+  <script src="./assets/js/locomotive-min.js"></script>
+  <script src="./assets/js/jquery.js"></script>
+  <script type="module" src="./assets/js/script.js"></script>
+  <script>
+    var container;
+    var camera, scene, renderer;
+    var uniforms;
+
+    init();
+    animate();
+
+    function init() {
+      container = document.getElementById('blob');
+
+      camera = new THREE.Camera();
+      camera.position.z = 1;
+
+      scene = new THREE.Scene();
+
+      var geometry = new THREE.PlaneBufferGeometry(2, 2);
+
+      uniforms = {
+        time: {
+          type: "f",
+          value: 1.0
+        },
+        resolution: {
+          type: "v2",
+          value: new THREE.Vector2()
+        }
+      };
+
+      var material = new THREE.ShaderMaterial({
+        uniforms: uniforms,
+        vertexShader: document.getElementById('vertexShader').textContent,
+        fragmentShader: document.getElementById('fragmentShader').textContent
+      });
+
+      var mesh = new THREE.Mesh(geometry, material);
+      scene.add(mesh);
+
+      renderer = new THREE.WebGLRenderer();
+      renderer.setPixelRatio(window.devicePixelRatio);
+
+      container.appendChild(renderer.domElement);
+
+      onWindowResize();
+      window.addEventListener('resize', onWindowResize, false);
+
+    }
+
+    function onWindowResize(event) {
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      uniforms.resolution.value.x = renderer.domElement.width;
+      uniforms.resolution.value.y = renderer.domElement.height;
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+      render();
+    }
+
+    function render() {
+      uniforms.time.value += 0.05;
+      renderer.render(scene, camera);
+    }
+  </script>
+</body>
+
+</html>
