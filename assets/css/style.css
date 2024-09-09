@@ -2145,7 +2145,6 @@ footer .credits {
   background-clip: padding-box;
   text-align: center;
   color: #f1f3f3;
-  background-image: linear-gradient(135deg, rgba(116, 124, 46, 0.35), rgba(110, 115, 74, 0.1) 15%, #1b2028 20%, #1b2028 100%);
 }
 .profile-image {
   border-radius: 50%;
