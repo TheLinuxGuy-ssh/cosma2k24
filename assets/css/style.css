@@ -1260,7 +1260,7 @@ p {
   text-decoration: none;
   cursor: pointer;
   transition: all ease 0.3s;
-  overflow: hidden;
+  overflow: none;
 }
 
 .text {
