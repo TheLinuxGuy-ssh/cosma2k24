@@ -1262,6 +1262,9 @@ p {
   transition: all ease 0.3s;
   overflow: none;
 }
+.scroll * {
+  overflow: none;
+}
 
 .text {
   text-shadow: 0 0 20px 1px rgb(var(--c), 1);
