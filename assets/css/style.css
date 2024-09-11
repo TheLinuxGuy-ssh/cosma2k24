@@ -1548,6 +1548,9 @@ p {
 }
 
 @media screen and (max-width: 850px) {
+  .scroll {
+    display: none;
+  }
   main {
     width: 100%;
     margin: 0 5rem;
