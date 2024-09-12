@@ -104,6 +104,7 @@ function updateScroller() {
   
   window.addEventListener("scroll", updateScroller);
   window.addEventListener("resize", updateScroller);
+}
   updateScroller();
 
 
@@ -123,6 +124,3 @@ function toggleAccordion() {
 }
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
-
-
-
